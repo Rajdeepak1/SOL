@@ -1,0 +1,1 @@
+{"name":"Local: 2162A_800","url":"c:\\Users\\ak980\\OneDrive\\Desktop\\cp\\SOL\\codeforces\\2162A_800.cpp","tests":[{"id":1765757678191,"input":"3\n4\n3 3 3 3\n5\n7 1 6 9 9\n5\n3 4 4 4 3\n","output":"3\n9\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ak980\\OneDrive\\Desktop\\cp\\SOL\\codeforces\\2162A_800.cpp","group":"local","local":true}

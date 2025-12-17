@@ -1,0 +1,25 @@
+lec-01(Assign cookies)
+
+let there be a greed=[1 5 3 3 4] and cookies=[4 2 1 2 1 3]
+so a children with its greed value can only be satisfied with cookies values >= greed value , so here the main concept is that you are greedy you will fulfill only the most minimum requirements possible 
+
+Sort both the arrays,  greed=[1 3 3 4 5]  and cookies=[1 1 2 2 3 4]
+Now see at first greed we can asign him 1 now move to 3 i can not assign 1 2 to 3 and not all the elements above it because it a sorted array they cannot satisy the greed factors of above elements now 3 can satify it and second 3 can be satisfied with 4 ,so in total the greed of 3 students have been fulfilled 
+
+PSEUDO CODE:-
+
+func ( greed , cookies )
+{
+    n = greed.size() ; m= cookies.size();
+    int l=0; int r=0;
+
+    sort(greed.begin(),greed.end());
+    sort(cookies.begin(),cookies.end());
+
+    while(l<m)
+    {
+        if( greed[r] <= cookies[l]) r = r+1;
+        l=l+1;
+    }
+    return r;
+}
